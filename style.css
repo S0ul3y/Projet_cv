@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900");
+
+body{
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    width: 100%;
+    height: 40vh;
+    background-color: #2A354B;
+    display: flex;
+    color: white;
+    /* border: 2px solid white; */
+    justify-content: space-around;
+}
+header .titre{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    line-height: 1px;
+    justify-content: end;
+    padding-bottom: 20px;
+}
+header .titre h1{
+    font-size: 4vw;
+    word-break: break-all;
+}
+header .titre h2{
+    font-size: 2.5vw;
+}
+hr{
+    width: 75vw;
+}
+header img{
+    background-color: #e1e2e4;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-right: 20px;
+    width: 18vw;
+    height: 45vh;
+    min-height: 230px;
+    min-width: 150px;
+    object-fit: cover;
+    z-index: 2;
+    overflow: hidden;
+}
+main{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: space-between;
+}
+.blockGauche{
+    /* background-color: aquamarine; */
+    padding-top: 30px;
+    width: 50px;
+    width: 60vw;
+}
+.blockDroit{
+    background-color: #EFF0F2;
+    height: 150vh;
+    /* min-height: auto;     */
+    width: 30vw;
+    z-index: 1;
+    margin-top: -150px;
+    border-radius: 20px 0px 0px 0px;
+    padding-top: 35vh;
+}
+.contenu span{
+    width: 50VW;
+    height: 50px;
+    color: #2A354B;
+    border-radius: 0px 20px 20px 0px;
+    box-shadow: 0px 1px 4px;
+    display: flex;
+    align-items: center;
+    font-size: 1.8vw;
+    font-weight: bolder;
+    padding-left: 30px;
+    background-color: #EFF0F2;
+    border: 0px;
+    outline: none;
+}
+.contenu span i{
+    color: #2A354B;
+    margin-right: 30px;
+}
+
+.texteZone{
+    margin-left: 45px;
+}
+
+.blockGauche p{
+    width: 500px;
+    margin-left: 50px;
+}
+
+
+.blockDroit H2{
+    text-align: center;
+    color: #2A354B;
+}
+.contacte{
+    width: 25vw;
+    min-width: 90%;
+    margin: 0 auto;
+}
+.contacte span{
+    
+    /* margin-left: 20px; */
+    /* margin: 0 auto; */
+    display: flex;
+    justify-content: left;
+    margin-bottom: 10px;
+    word-break: break-all;
+}
+.contacte span i{
+    margin-right: 10px;
+    font-size: 1.3rem;
+}
+.compet {
+    width: 25vw;
+    min-width: 90%;
+    margin: 0 auto;
+    display: flex;
+}
+
+
+.BlockTexte{
+    display: flex;
+    align-items: center;
+    line-height: 40px   ;
+}
+.compet .ligne{
+    position: relative;
+    left: 9px;
+    width: 5px;
+    height: 240px;
+    z-index: 1px;
+    background-color: #2A354B;
+}
+
+.compet  .BlockTexte  span{
+    width: 15px;
+    height: 15px;   
+    border-radius: 50%;
+    background-color: #2A354B;
+    margin-right: 20px;
+    z-index: 2;
+}
+.certification {
+    width: 25vw;
+    min-width: 90%;
+    margin: 0 auto;
+    /* border: 2px solid black; */
+}
+.certification  p{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.certification p  span{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #2A354B;
+    margin-right: 20px;
+}
+.Texte{
+    margin-left: 40px;
+}
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+    main{
+        display: block;
+    }
+    .blockGauche{
+        /* background-color: aquamarine; */
+        padding-top: 30px;
+        width: 50px;
+        width: 98vw;
+    }
+    .blockDroit{
+        background-color: #EFF0F2;
+        height: auto;
+        width: 98vw;
+        z-index: 1;
+        margin-top: -150px;
+        border-radius: 20px 20px 0px 0px;
+        padding-top: 2vh;
+        margin-top: 5vw;
+    }
+    
+    hr{
+        width: 100vw;
+    }
+    header img{
+        margin-right: 2px;
+        width: 200px;
+        height: 150px;
+        margin-top: 0px;
+    }
+    /* header .titre{
+        margin-left: 50px;
+        font-size: 10vw;
+    } */
+    } 
+
+@media screen and (max-width: 700px) {
+   
+    header .titre h1{
+        font-size: 6.5vw;
+        word-break: break-all;
+    }
+    header .titre h2{
+        font-size: 5vw;
+    }
+    .contenu span{
+        width: 80%;
+        font-size: 3vw;
+    }
+    .contenu p{
+        width: 80%;
+    }
+    header{
+        width: 100%;
+        height: 60vh;
+        background-color: #2A354B;
+        display: flex;
+        flex-direction: column-reverse;
+        overflow: hidden;
+        padding-left: 20px;
+    }
+    header img{
+        margin-right: 2px;
+        width: 200px;
+        height: 150px;
+    }
+    
+}
