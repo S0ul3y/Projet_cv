@@ -7,10 +7,13 @@ body{
     overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
 }
+:root{
+    --Couleur1 : #2A354B;
+}
 header{
     width: 100%;
     height: 40vh;
-    background-color: #2A354B;
+    background-color: var(--Couleur1);
     display: flex;
     color: white;
     /* border: 2px solid white; */
